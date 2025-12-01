@@ -1,1 +1,69 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: #0d1117;
+    color: white;
+    text-align: center;
+}
+
+header {
+    padding: 60px 20px;
+    background: #161b22;
+}
+
+.highlight {
+    color: #58a6ff;
+}
+
+.btn {
+    background: #238636;
+    color: white;
+    padding: 12px 25px;
+    border-radius: 8px;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+section {
+    padding: 40px 20px;
+    border-bottom: 1px solid #21262d;
+}
+
+.skills-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 15px;
+    padding: 20px;
+}
+
+.skill {
+    background: #21262d;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.project {
+    background: #161b22;
+    padding: 20px;
+    margin: 20px auto;
+    width: 80%;
+    border-radius: 8px;
+}
+
+.btn-small {
+    display: inline-block;
+    background: #238636;
+    padding: 8px 18px;
+    border-radius: 6px;
+    margin-top: 10px;
+    color: white;
+    text-decoration: none;
+}
+
+footer {
+    background: #161b22;
+    padding: 15px;
+    margin-top: 30px;
+    font-size: 14px;
+}
 
